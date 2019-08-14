@@ -18,14 +18,18 @@ body {
 
 .navbar {
   padding-top: 50px;
-  font-family: "Quicksand", sans-serif;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .jumbotronMain,
 .jumbotron p,
 h3 {
-  font-family: "EB Garamond", serif;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
 }
+h1 {
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+}
+
 
 .jumbotron {
   padding-top: 250px;
@@ -61,12 +65,12 @@ body {
 }
 
 .footer .text-muted {
-  font-family: "EB Garamond", serif;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
   padding-top: 4.5%;
 }
 
 .text-muted {
-  font-family: "EB Garamond", serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .jumbotron,
@@ -96,6 +100,8 @@ body {
   opacity: 0;
   transition: 0.5s ease;
   background-color: #28537d;
+  /* opacity: 0.5;
+  filter: alpha(opacity=50); For IE8 and earlier */
 }
 
 .picContainer:hover .overlay {
@@ -112,7 +118,7 @@ body {
 }
 
 .text a {
-  font-family: "Quicksand", sans-serif;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
   color: white;
   font-size: 22px;
   text-decoration: none;
@@ -164,7 +170,7 @@ body {
 
 .bio {
   max-width: 75%;
-  font-family: "EB Garamond", serif;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .iconImage {
@@ -179,7 +185,7 @@ body {
 }
 
 .card {
-  font-family: "EB Garamond", serif;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 20px;
   width: 20%;
   border: none;
@@ -247,7 +253,7 @@ body {
   }
 
   .card {
-    font-family: "EB Garamond", serif;
+    font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 20px;
     width: 40%;
     border: none;
@@ -258,7 +264,7 @@ body {
 
 @media screen and (max-width: 555px) {
   .card {
-    font-family: "EB Garamond", serif;
+    font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 20px;
     width: 60%;
     border: none;
