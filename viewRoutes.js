@@ -10,8 +10,8 @@ module.exports = (server, app) => {
   });
 
   // Fixes error where about page isnt rendered with extra forward slash
-  server.get('/about', (req, res) => {
-    app.render(req, res, '/about');
+  server.get('/skills', (req, res) => {
+    app.render(req, res, '/skills');
   });
 
   // Fixes error where contact page isnt rendered with extra forward slash

@@ -8,27 +8,8 @@ import '../static/css/pages.css';
 const App = () => (
   <div>
     <Navbar />
-    <Jumbotron phrase="From Beer to Code." subtitle="The story of my transition from Ballast Point Brewing Company to software development" />
-    <h3>My Story</h3>
-    <hr />
-    <div className="row">
-      <div className="col-md-6 aboutSections">
-        <img className="profilePic profilePic1" src="../static/pics/DSC_6082.jpg" alt="profilepic" />
-      </div>
-      <div className="col-md-6 aboutSections">
-        <h4 className="bio bio1">
-          Full-Stack fanatic who converts coffee into code.
-          My previous career as a Filter Technician at Ballast
-          Point Brewing Company revealed my passion for mechanical processes,
-          problem solving, and creating quality products through collaborative teamwork.
-          I specialize in HTML, CSS, JavaScript, and React on the front-end as well as Node
-          and MySQL/Mongo on the back-end to create beautiful and secure applications.
-          My biggest priority is developing clear, high-quality code while cultivating
-          a fun and encouraging workplace culture.
-        </h4>
-      </div>
-    </div>
-    <h3 className="skills">My Skills</h3>
+    <Jumbotron phrase="From Coffee to Code." subtitle="We enjoy working hard to deliver quality code" />
+    <h3 className="skills">Our Skills</h3>
     <hr />
     <div className="row">
       <div className="col">

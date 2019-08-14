@@ -65,6 +65,10 @@ body {
   padding-top: 4.5%;
 }
 
+.text-muted {
+  font-family: "EB Garamond", serif;
+}
+
 .jumbotron,
 .navbar {
   background: transparent !important;
