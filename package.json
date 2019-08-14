@@ -13,6 +13,8 @@
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-favicon": "0.0.14",
+    "react-typing-effect": "^2.0.2",
+    "react-typist": "^2.0.5",
     "webpack": "^4.29.6"
   },
   "scripts": {
@@ -71,6 +73,7 @@
     "eslint-plugin-react": "^7.12.4",
     "mocha": "^6.1.4",
     "nightmare": "^3.0.1",
+    "nodemon": "^1.19.1",
     "react-scripts": "^3.0.1"
   }
 }
